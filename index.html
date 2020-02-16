@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My webpage!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://malsup.github.io/min/jquery.cycle2.min.js"></script>
+
+    <script async src="./javascript/index.js"></script>
+    <script async src="./javascript/countDown.js"></script>
+
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-xl p-0">
+        <ul class="navbar-nav mr-auto ml-auto nav-logo-style">
+          <li class="nav-item nav-logo-listitem">
+              <img class="nav-logo" src="./img/Logo1.png" alt="">
+          </li>
+        </ul>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsing-navbar-xs">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="collapsing-navbar-xs">
+            <ul class="navbar-nav mr-auto ml-auto nav-additional-style">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Visit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Booking</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Calendar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Participants</a>
+              </li>
+              <li class="nav-item nav-break" >
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <!-- Highlighted Side Menu -->
+              <li class="nav-item nav-highlight-tabs">
+                <a class="nav-link nav-sidemenu-link " href="#">Events</a>
+              </li>
+              <li class="nav-item nav-highlight-tabs nav-md">
+                <a class="nav-link nav-sidemenu-link" href="#">Map</a>
+              </li>
+              <li class="nav-item nav-highlight-tabs">
+                <a class="nav-link nav-sidemenu-link" href="#">Tickets</a>
+              </li>
+            </ul>
+            
+          </div>
+          <!-- div class="nav-hl-side-menu">
+
+          </div -->
+          <!-- End of the Unordered List -->
+
+        </ul>
+        <!-- End of the Unordered List -->
+      </nav>
+      <!-- End of the navigation bar -->
+
+      <!-- Hero Image -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <!-- div class="display-4"></div -->
+        </div>
+      </div>
+
+      <!-- Count Down Table -->
+
+      <div class="container-fluid p-0">
+          <div id="count-down-title" class="count-down-table-common"> FEBRUARY 6 - 17, 2021 </div>
+          <div style="width: 100%;">
+            <table class="table countDowntable">
+              <tbody>
+                <tr>
+                  <td colspan="2" class="border-top-0"></td>
+                  <td class="border-top-0 count-down-table-right-border">
+                    <div class="count-down-table-column count-down-table-common" id="cdTableDays"></div>
+                    <div class="count-down-table-label count-down-table-common">DAYS</div>
+                  </td>
+                  <td class="border-top-0 count-down-table-right-border">
+                    <div class="count-down-table-column count-down-table-common" id="cdTableHours"></div>
+                    <div class="count-down-table-label count-down-table-common">HRS</div>
+                  </td>
+                  <td class="border-top-0 count-down-table-right-border">
+                    <div class="count-down-table-column count-down-table-common" id="cdTableMinutes"></div>
+                    <div class="count-down-table-label count-down-table-common">MIN</div>
+                  </td>
+                  <td class="border-top-0">
+                    <div class="count-down-table-column count-down-table-common" id="cdTableSeconds"></div>
+                    <div class="count-down-table-label count-down-table-common">SEC</div>
+                  </td>
+                  <td colspan="2" class="border-top-0"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+      <!-- End of the countdown container-->
+
+
+      <!-- Beggining the Grid View of links -->
+      <div class="container-fluid p-0">
+          <div class="row">
+            
+            <div class="col p-0 card-border">
+                <div class="card bg-dark text-white">
+                  <img class="card-img" src="./img/parkingImg.png" alt="Card image">
+                  <div class="card-img-overlay">
+                    <h2 class="card-title" >MAP/PARKING</h2>
+                  </div>
+                </div>
+            </div>
+            <div class="col p-0 card-border">
+              <div class="card bg-dark text-white">
+                <img class="card-img" src="./img/foodImage.png" alt="Card image">
+                <div class="card-img-overlay">
+                  <h2 class="card-title">FOOD</h2>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col p-0 card-border">
+              <div class="card bg-dark text-white">
+                <img class="card-img" src="./img/fairImg.png" alt="Card image">
+                <div class="card-img-overlay">
+                  <h2 class="card-title">FAIR EVENTS</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col p-0 card-border">
+              <div class="card bg-dark text-white">
+                <img class="card-img" src="./img/competitionsImg.png" alt="Card image">
+                <div class="card-img-overlay">
+                  <h2 class="card-title">COMPETITIONS</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col p-0 card-border">
+              <div class="card bg-dark text-white">
+                <img class="card-img" src="./img/faqImg.png" alt="Card image">
+                <div class="card-img-overlay">
+                  <h2 class="card-title">FAQ</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col p-0 card-border">
+              <div class="card bg-dark text-white">
+                <img class="card-img" src="./img/lodgingImg.png" alt="Card image">
+                <div class="card-img-overlay">
+                  <h2 class="card-title">LODGING</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- grid footer -->
+      <div id="table-footer" class="container-fluid p-0"> <h2 id="table-footer-title">WHAT'S NEW FOR 2020</h2> </div>
+      
+      <!-- Featured Events -->
+      <div id="feature-title-container" class="container-fluid">
+        <!-- Feature Header -->
+        <div class="feature-title">
+            FEATURED EVENTS <br />
+            <div class="small-text-title">
+              (Yes, this is all included!)
+            </div>
+        </div>
+
+      </div>
+
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <div style="height: 5em;">
+                <h2 class="card-title feature-header">FAMILY<br />FUN</h2>
+              </div>
+              <div class="card">
+                <img class="card-img feature-imgs" src="./img/familyfunimg.png" alt="Card image">
+              </div>
+              <div style="width: 100%;">
+                <h4 class="feature-content">Lawn Mower Races</h4>
+                <p class="feature-link" >VIEW ALL FAMILY EVENTS <i class='fas fa-arrow-right feature-icon'></i> </p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div style="height: 5em;">
+                <h2 class="card-title feature-header">LIVE<br />MUSIC</h2>
+              </div>
+              <div class="card">
+                <img class="card-img feature-imgs" src="./img/livemusicimg.png" alt="Card image">
+              </div>
+              <div style="width: 100%;">
+                <h4 class="feature-content" >Zac Brown Band</h4>
+                <p class="feature-link">VIEW ALL MUSIC EVENTS <i class='fas fa-arrow-right feature-icon'></i> </p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div style="height: 5em;">
+                <h2 class="card-title feature-header">CIRCUS<br />HOLLYWOOD</h2>
+              </div>
+              <div class="card">
+                <img class="card-img feature-imgs" src="./img/circushollywoodimg.png" alt="Card image">
+              </div>
+              <div>
+                <div style="width: 100%;">
+                  <h4 class="feature-content">Walk on the Wild Side</h4>
+                  <p class="feature-link">VIEW ALL CIRCUS EVENTS <i class='fas fa-arrow-right feature-icon'></i> </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+      <!-- End of the Feature Container -->
+
+      <div class="subscription-section" style="object-fit:cover; overflow: hidden !important;">
+        <img src="./img/subscribeImg.png" />
+        <h2 class="subscription-info">BE THE FIRST TO KNOW</h2>
+        <div class="subscription-info-small"> Receive emails or texts with concert announcements, events, competitions and Florida State <br />
+        Fairgrounds news. Enter your email address or cell phone number below.
+        </div>
+
+          <input type="text" class="form-control form-rounded subscription-input" placeholder="Enter Email Here ...">
+      </div>
+
+      <!-- End of the Feature Container -->
+
+      <!-- Sponsors Container  -->
+      <div class="container-fluid">
+        <div class="sponsor-title"> <h2>Sponsors</h2> </div>
+        <div id="gallery" class="cycle-slideshow cycle-autoinit" data-cycle-fx="scrollHorz" data-cycle-speed="3000" 
+              data-cycle-timeout="1" data-cycle-easing="linear">
+
+          <img src="./img/budweiserImg.png" />
+          <img src="./img/loterryImg.png" />
+          <img src="./img/cocaColaImg.png" />
+          <img src="./img/mcDonaldImg.png" />
+          <img src="./img/tMobileImg.png" />
+          <img src="./img/floridaDairyImg.png" />
+          <img src="./img/chevrolet.png" />
+        </div>
+      </div>
+
+
+      <div class="container-fluid">
+        <div class="fair-title"> <h2>#FLSTATEFAIR</h2> </div>
+        <div class="fair-gallery" class="cycle-slideshow">
+          <img src="./img/flImgOne.png" />
+          <img src="./img/flImgTwo.png" />
+          <img src="./img/flImgThree.png" />
+          <img src="./img/flImgFour.png" />
+          <img src="./img/flImgFive.png" />
+        </div>
+        <div class="followUs">
+            <h2>FOLLOW US</h2>
+            <div class="social-icons-container">
+              <img class="social-icons" src="./img/FB.svg">
+              <img class="social-icons" src="./img/Twitter.svg">
+              <img class="social-icons" src="./img/YouTube.svg">
+              <img class="social-icons" src="./img/Instagram.svg">
+              <img class="social-icons" src="./img/Flickr.svg">
+            </div>
+        </div>
+
+      </div>
+
+      <div class="container-fluid page-footer">
+          <div class="footer-logo">
+            <img src="./img/Logo1.png">
+          </div>
+          <div class="footer-info">
+            <p>4800 US Hwy. 301 North, Tampa FL 33610 <br /> 813 621 7821 | info@FloridaStateFair.com</p>
+          </div>
+          <div class="ontainer-fluid footer-tabs">
+            <div class="row justify-content-md-center">
+              <div class="col col-lg-1 footer-tabs"> PARTNERS </div>
+              <div class="col col-lg-1 footer-tabs"> LEGAL </div>
+              <div class="col col-lg-1 footer-tabs"> MEDIA </div>
+            </div>
+          </div>
+          <p style="color: white; text-align: center;">Copyright ©2019, Florida State Fair Authority. All Rights Reserved. </p>
+      </div>
+
+      <!-- Footer -->
+
+    </div>
+  </body>
+</html>
+
+<script>
+
+  window.onload = function () {
+    if($(window).height() >= 900 ) {
+      $(".jumbotron").css({ height: ($(window).height() * .712) + "px" });
+    }
+    else {
+      $(".jumbotron").css({ height: ($(window).height() * .65)  + "px" });
+    }
+  }
+
+</script>

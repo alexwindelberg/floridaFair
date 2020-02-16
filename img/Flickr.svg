@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="79" height="79" viewBox="0 0 79 79">
+  <g id="Flickr" transform="translate(-0.375)">
+    <g id="Icon" transform="translate(24.375 33)">
+      <ellipse id="Oval" cx="6.417" cy="6.5" rx="6.417" ry="6.5" transform="translate(0 0)" fill="#f5a055"/>
+      <ellipse id="Oval_Copy" data-name="Oval Copy" cx="6.417" cy="6.5" rx="6.417" ry="6.5" transform="translate(20.167 0)" fill="#f5a055"/>
+    </g>
+    <g id="Oval-2" data-name="Oval" transform="translate(0.375)" fill="none" stroke="#f5a055" stroke-miterlimit="10" stroke-width="3.5">
+      <circle cx="39.5" cy="39.5" r="39.5" stroke="none"/>
+      <circle cx="39.5" cy="39.5" r="37.75" fill="none"/>
+    </g>
+  </g>
+</svg>

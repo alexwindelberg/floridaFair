@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="79" height="79" viewBox="0 0 79 79">
+  <g id="FB" transform="translate(-0.784)">
+    <path id="Fill_4" data-name="Fill 4" d="M0,8.6H2.785V5.988c0-1.153.03-2.93.9-4.029A5.017,5.017,0,0,1,8.006,0,18.091,18.091,0,0,1,13,.485l-.7,3.982a9.718,9.718,0,0,0-2.245-.324c-1.082,0-2.053.376-2.053,1.42V8.6h4.442l-.309,3.89H8.006V26H2.785V12.489H0Z" transform="translate(33.784 26)" fill="#f5a055"/>
+    <g id="Oval" transform="translate(0.784)" fill="none" stroke="#f5a055" stroke-miterlimit="10" stroke-width="3.5">
+      <circle cx="39.5" cy="39.5" r="39.5" stroke="none"/>
+      <circle cx="39.5" cy="39.5" r="37.75" fill="none"/>
+    </g>
+  </g>
+</svg>
